@@ -38,8 +38,19 @@
 .conteudoPrincipal-cursos {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .conteudoPrincipal-cursos-link {
     width: 20%;
+    margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-right: 0;
 }
