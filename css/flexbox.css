@@ -9,10 +9,11 @@
 }
 
 .rodapePrincipal-patrocinadores .container {
-   display: flex;
-   justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
 }
 
 .rodapePrincipal-patrocinadores-list {
     display: flex;
+    align-items: center;
 }
